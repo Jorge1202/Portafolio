@@ -1,4 +1,5 @@
 ---
+import {Header} from '../components/Header/Header';
 interface Props {
 	title: string;
 }
@@ -6,22 +7,80 @@ interface Props {
 const { title } = Astro.props;
 ---
 
+
+
 <!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="description" content="Astro description" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		
+		<!-- Meta SEO -->
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Jorge Balderas Barraza"/>
+        <meta property="og:description" content="Bienvenido a mi portafolio personal, donde podrás explorar mi experiencia, habilidades y logros profesionales. Descubre mi CV y proyectos destacados, y conoce cómo puedo agregar valor a tu equipo o proyecto."/>
+        <meta property="og:image" content="Assets/img/favicon.ico"/>
+        <meta property="og:url" content="yorchmistery.com"/>
+        <meta 
+            content="Bienvenido a mi portafolio personal, donde podrás explorar mi experiencia, habilidades y logros profesionales. Descubre mi CV y proyectos destacados, y conoce cómo puedo agregar valor a tu equipo o proyecto." 
+            name="description"/>
+        <meta 
+            content="yorchmistery, mistery, yorch mistery, yorch mystery, yorch, mystery, yorchmystery, Jorge Balderas, Jorge, Balderas, portafolio, currículum, CV, proyectos, habilidades, experiencia, desarrollo, diseño, front-end, back-end, creatividad, innovación, profesional" 
+            name="keywords"/>
+        <meta name="author" content="Jorge Balderas Barraza"/>
+
+
+		
+		<!-- Favicons -->
+		<link href="/Assets/img/favicon.ico" rel="icon">
+		<link href="/Assets/img/favicon.ico" rel="apple-touch-icon">
+
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+
+		<!-- Vendor CSS Files -->
+		<link href="/Assets/vendor/aos/aos.css" rel="stylesheet">
+		<link href="/Assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/Assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+		<link href="/Assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+		<link href="/Assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+		<link href="/Assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+		<!-- Template Main CSS File -->
+		<link href="/Assets/css/style.css" rel="stylesheet">
+
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
 	<body>
+		<Header/>
 		<slot />
+
+
+		<!-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> -->
+
+		<!-- Vendor JS Files -->
+		<script is:inline src="/Assets/vendor/purecounter/purecounter_vanilla.js"></script>
+		<script is:inline src="/Assets/vendor/aos/aos.js"></script>
+		<script is:inline src="/Assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script is:inline src="/Assets/vendor/glightbox/js/glightbox.min.js"></script>
+		<script is:inline src="/Assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+		<script is:inline src="/Assets/vendor/swiper/swiper-bundle.min.js"></script>
+		<script is:inline src="/Assets/vendor/typed.js/typed.umd.js"></script>
+		<script is:inline src="/Assets/vendor/waypoints/noframework.waypoints.js"></script>
+		<script is:inline src="/Assets/vendor/php-email-form/validate.js"></script>
+
+		<!-- Template Main JS File -->
+		<script is:inline src="/Assets/js/main.js"></script>
+		<script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+		<script is:inline src="/Assets/js/views.js"></script>
+
 	</body>
 </html>
 <style is:global>
-	:root {
+	/* :root {
 		--accent: 136, 58, 234;
 		--accent-light: 224, 204, 250;
 		--accent-dark: 49, 10, 101;
@@ -36,16 +95,6 @@ const { title } = Astro.props;
 		font-family: system-ui, sans-serif;
 		background: #13151a;
 		background-size: 224px;
-	}
-	code {
-		font-family:
-			Menlo,
-			Monaco,
-			Lucida Console,
-			Liberation Mono,
-			DejaVu Sans Mono,
-			Bitstream Vera Sans Mono,
-			Courier New,
-			monospace;
-	}
+	} */
+	
 </style>
