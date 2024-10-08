@@ -16,8 +16,8 @@ const Portafolio = () => {
             <div className="row" data-aos="fade-up">
                 <div className="col-lg-12 d-flex justify-content-center">
                 <ul id="portfolio-flters">
-                    <li data-filter="*" className="filter-active">Todos</li>
-                    <li data-filter=".filter-games">Juegos</li>
+                    {/* <li data-filter="*" className="filter-active">Todos</li> */}
+                    {/* <li data-filter=".filter-games">Juegos</li> */}
                     <li data-filter=".filter-apis">Consumo de APIs</li>
                     {/* <li data-filter=".filter-freelancer">Freelancer</li> */}
                 </ul>
@@ -37,7 +37,7 @@ const Portafolio = () => {
                     </div>
                 </div>
     
-                <div className="col-lg-4 col-md-6 portfolio-item filter-games">
+                {/* <div className="col-lg-4 col-md-6 portfolio-item filter-games">
                     <div className="portfolio-wrap">
                         <img src="/Assets/img/portfolio/ahorcado/ahorcado2.png" className="img-fluid" alt=""/>
                         <div className="portfolio-links">
@@ -47,7 +47,7 @@ const Portafolio = () => {
                         <a href="/View_ahorcado" title="Ver Sitio"><i className="bx bx-link"></i></a>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
 

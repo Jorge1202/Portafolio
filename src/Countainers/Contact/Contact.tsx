@@ -27,7 +27,7 @@ const Contact = () => {
                         <div className="address">
                             <i className="bi bi-geo-alt"></i>
                             <h4>Ubicación:</h4>
-                            <p>Pachuca, Hidalgo</p>
+                            <p>Tulancingo, Hidalgo</p>
                         </div>
 
                         <div className="email">

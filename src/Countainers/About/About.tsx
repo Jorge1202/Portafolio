@@ -1,6 +1,22 @@
 import React from 'react';
 
 const About = () => {
+
+	const calcularAniosCumplidos = (dia:number, mes:number, anio:number) => {
+		const fechaNacimiento = new Date(anio, mes - 1, dia); // Crear fecha de nacimiento
+		const fechaActual = new Date(2024, 9, 8); // Usar la fecha actual especificada: 8 de octubre de 2024
+	
+		let aniosCumplidos = fechaActual.getFullYear() - fechaNacimiento.getFullYear();
+	
+		// Ajustar si el cumpleaños aún no ha ocurrido este año
+		const cumpleanoEsteAnio = new Date(fechaActual.getFullYear(), mes - 1, dia);
+		if (fechaActual < cumpleanoEsteAnio) {
+			aniosCumplidos--;
+		}
+	
+		return aniosCumplidos;
+	}
+
     return (
         <section id="about" className="about">
 			<div className="container">
@@ -50,7 +66,7 @@ const About = () => {
 									<li>
 										<i className="bi bi-chevron-right"></i>
 										<strong>Ciudad:</strong>
-										<span>Pachuca, Hidalgo</span>
+										<span>Tulancingo, Hidalgo</span>
 									</li>
 									<li>
 										<i className="bi bi-chevron-right"></i>
@@ -58,10 +74,9 @@ const About = () => {
 										<span
 											><a
 												href="https://yorchmystery.com"
-												target="_blank"
-												>yorchmystery.com</a
-											></span
-										>
+												>yorchmystery.com
+											</a>
+										</span>
 									</li>
 								</ul>
 							</div>
@@ -70,7 +85,7 @@ const About = () => {
 									<li>
 										<i className="bi bi-chevron-right"></i>
 										<strong>Edad:</strong>
-										<span>32</span>
+										<span>{calcularAniosCumplidos(12, 2, 1992)}</span>
 									</li>
 									<li>
 										<i className="bi bi-chevron-right"></i>

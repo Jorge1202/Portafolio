@@ -52,33 +52,7 @@ const Resumen = () => {
 		
 					<div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
 						<h3 className="resume-title">Experiencia Profesional</h3>
-						<div className="resume-item">
-							<h4>PRODUCT MANAGER</h4>
-							<h5>Noviembre 2023 - Actualidad</h5>
-							<p><em>Fuller Cosmetic  </em></p>
-							<p><em>Ciudad de México, México · En remoto</em></p>
-							<p>
-								Colaboro con partes interesadas para establecer una visión compartida del producto. 
-								Defino objetivos a corto y largo plazo, identifico y priorizo los requisitos basándome en la investigación de mercado 
-								y las necesidades del cliente, y trabajo con equipos de diseño y desarrollo para garantizar su implementación adecuada. 
-								Planifico, ejecuto y hago seguimiento de proyectos, asegurando que se cumplan los plazos y presupuestos establecidos. 
-								Coordino equipos multidisciplinarios, incluyendo ingeniería, diseño y marketing. 
-								Utilizo la retroalimentación del cliente y los datos analíticos para iterar y mejorar continuamente el producto. 
-								Implemento metodologías ágiles, como Scrum, para facilitar una entrega rápida y flexible del producto.
-							</p>
-                            <p className='cont-badge'>
-                                <span className="badge bg-primary">Scrum</span>
-                                <span className="badge bg-primary">Trello</span>
-                                <span className="badge bg-primary">Miro</span>
-                                <span className="badge bg-primary">Gant</span>
-                                <span className="badge bg-primary">Liderazgo</span>
-                                <span className="badge bg-primary">Gestión de proyectos</span>
-                                <span className="badge bg-primary">Planificación de proyectos</span>
-                            </p>
-						</div>
-			
-			
-			
+						
 						<div className="resume-item">
 							<h4>SOFTWARE ENGINEER SENIOR</h4>
 							<h5>Enero 2022 - Actualidad</h5>
@@ -103,7 +77,7 @@ const Resumen = () => {
                                 <span className="badge bg-primary">Typescript </span>
                             </p>					
 						</div>
-			
+
 						<div className="resume-item">
 							<h4>SOFTWARE ENGINEER</h4>
 							<h5>Marzo 2021 - Enero 2022 · 11 meses</h5>
@@ -126,6 +100,39 @@ const Resumen = () => {
                                 <span className="badge bg-primary">Typescript</span>
                                 <span className="badge bg-primary">Azure</span>
                                 <span className="badge bg-primary">Salesforce </span>
+                            </p>
+						</div>
+
+						<div className="resume-item">
+							<h4>FULL STACK DEVELOPER - FREELANCE </h4>
+							<h5>Feb 2021 - Diciembre 2022 · 1 año 11 meses</h5>
+							<p><em>Unuspat  </em></p>
+							<p><em>Ciudad de México, México · En remoto</em></p>
+							<p>
+								Me involucré en el desarrollo de una plataforma que actúa como la herramienta principal para los procesos internos de la empresa. 
+								Este proyecto se llevó a cabo de principio a fin, comenzando con el análisis de la arquitectura del software. 
+								Implementé una API REST en el backend utilizando Node.js y seleccioné la base de datos más adecuada para las necesidades de la empresa. 
+								En el frontend, desarrollé la interfaz utilizando React.js, creando todos los componentes y estilos con Bootstrap y SASS, 
+								bajo el diseño UX/UI propuesto por la diseñadora de la empresa, UNUSPAT.
+								La plataforma incluye cuatro roles diferentes: Administrador, Gestor, Headhunter y Doctor. 
+								También realicé el despliegue de la plataforma en producción en Azure, 
+								asegurando un lanzamiento exitoso y una integración efectiva de todos los componentes.
+							</p>
+                            <p className='cont-badge'>
+                                <span className="badge bg-primary">Html</span>
+                                <span className="badge bg-primary">Javascript</span>
+                                <span className="badge bg-primary">React JS</span>
+                                <span className="badge bg-primary">Sass</span>
+                                <span className="badge bg-primary">Bootstrap</span>
+                                <span className="badge bg-primary">Node JS</span>
+                                <span className="badge bg-primary">TypeScript</span>
+                                <span className="badge bg-primary">Postgresql</span>
+                                <span className="badge bg-primary">Azure</span>
+                                <span className="badge bg-primary">Git</span>
+                                <span className="badge bg-primary">Scrum</span>
+                                <span className="badge bg-primary">Trello</span>
+                                <span className="badge bg-primary">Miro</span>
+                                <span className="badge bg-primary">Planificación de proyectos</span>
                             </p>
 						</div>
 			

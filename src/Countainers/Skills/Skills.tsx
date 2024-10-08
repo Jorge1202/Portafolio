@@ -37,15 +37,6 @@ const Skills = () => {
 
                         <div className="progress">
                             <span className="skill">
-                                SASS <i className="val">70%</i>
-                            </span>
-                            <div className="progress-bar-wrap">
-                                <div className="progress-bar" role="progressbar" aria-valuenow={70} aria-valuemin={0} aria-valuemax={100}></div>
-                            </div>
-                        </div>
-
-                        <div className="progress">
-                            <span className="skill">
                                 BOOTSTRAP <i className="val">100%</i>
                             </span>
                             <div className="progress-bar-wrap">
@@ -55,10 +46,19 @@ const Skills = () => {
 
                         <div className="progress">
                             <span className="skill">
-                                TAILWIND <i className="val">55%</i>
+                                SASS <i className="val">70%</i>
                             </span>
                             <div className="progress-bar-wrap">
-                                <div className="progress-bar" role="progressbar" aria-valuenow={55} aria-valuemin={0} aria-valuemax={100}></div>
+                                <div className="progress-bar" role="progressbar" aria-valuenow={70} aria-valuemin={0} aria-valuemax={100}></div>
+                            </div>
+                        </div>
+
+                        <div className="progress">
+                            <span className="skill">
+                                TAILWIND <i className="val">45%</i>
+                            </span>
+                            <div className="progress-bar-wrap">
+                                <div className="progress-bar" role="progressbar" aria-valuenow={45} aria-valuemin={0} aria-valuemax={100}></div>
                             </div>
                         </div>
 
@@ -72,9 +72,9 @@ const Skills = () => {
                         </div>
 
                         <div className="progress">
-                            <span className="skill">GIT <i className="val">70%</i></span>
+                            <span className="skill">GIT <i className="val">90%</i></span>
                             <div className="progress-bar-wrap">
-                                <div className="progress-bar" role="progressbar" aria-valuenow={70} aria-valuemin={0} aria-valuemax={100}></div>
+                                <div className="progress-bar" role="progressbar" aria-valuenow={90} aria-valuemin={0} aria-valuemax={100}></div>
                             </div>
                         </div>
 
@@ -89,10 +89,10 @@ const Skills = () => {
 
                         <div className="progress">
                             <span className="skill">
-                                Azure Devops <i className="val">40%</i>
+                                Azure Devops <i className="val">25%</i>
                             </span>
                             <div className="progress-bar-wrap">
-                                <div className="progress-bar" role="progressbar" aria-valuenow={40} aria-valuemin={0} aria-valuemax={100}></div>
+                                <div className="progress-bar" role="progressbar" aria-valuenow={25} aria-valuemin={0} aria-valuemax={100}></div>
                             </div>
                         </div>
 
@@ -156,19 +156,19 @@ const Skills = () => {
 
                         <div className="progress">
                             <span className="skill">
-                                Typescript <i className="val">45%</i>
+                                Typescript <i className="val">55%</i>
                             </span>
                             <div className="progress-bar-wrap">
-                                <div className="progress-bar" role="progressbar" aria-valuenow={75} aria-valuemin={0} aria-valuemax={100}></div>
+                                <div className="progress-bar" role="progressbar" aria-valuenow={55} aria-valuemin={0} aria-valuemax={100}></div>
                             </div>
                         </div>
 
                         <div className="progress">
                             <span className="skill">
-                                CONSUMO Y CREACIÓN DE API´S <i className="val">55%</i>
+                                CONSUMO Y CREACIÓN DE API´S <i className="val">75%</i>
                             </span>
                             <div className="progress-bar-wrap">
-                                <div className="progress-bar" role="progressbar" aria-valuenow={100} aria-valuemin={0} aria-valuemax={100}></div>
+                                <div className="progress-bar" role="progressbar" aria-valuenow={75} aria-valuemin={0} aria-valuemax={100}></div>
                             </div>
                         </div>
 
